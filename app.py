@@ -8,8 +8,5 @@ def index():
 	x = int(round(time.time() * 1000))
 	return render_template("index.html", stylevar=x)
 
-
-
-
 if __name__ == "__main__":
 	app.run(debug=True)
