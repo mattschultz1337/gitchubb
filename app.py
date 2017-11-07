@@ -1,5 +1,8 @@
 from flask import Flask, render_template, request
 import time
+import os
+
+port = int(os.getenv("PORT"))
 
 app = Flask(__name__)
 
@@ -9,4 +12,4 @@ def index():
 	return render_template("index.html", stylevar=x)
 
 if __name__ == "__main__":
-	app.run(debug=True)
+	app.run(host='0.0.0.0', port=port, debug=True)
