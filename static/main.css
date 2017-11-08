@@ -11,6 +11,6 @@
   text-align: center;
 }
 .speedo{
-  align: center;
-  padding: 15%;
+  display: block;
+  margin: auto;
 }
