@@ -26,3 +26,7 @@
   background-color: #16196a;
   color: #fff;
 }
+.man{
+  -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+    animation-iteration-count: 3;
+}
